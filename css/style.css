@@ -1,0 +1,162 @@
+h1,
+h2,
+h3 {
+  font-family: "Atma", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+body {
+  font-family: "Noto Serif", Georgia, serif;
+  color: #505050;
+}
+
+.my-header {
+  position: relative;
+  z-index: 10;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 600px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ffbe16;
+  border-radius: 50px;
+  border-width: 0;
+  font-family: "Atma";
+}
+
+.map-responsive {
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.svg-div {
+  max-width: 100%;
+  justify-content: center;
+}
+
+.btn-custom {
+  background-color: #f07474;
+  border-radius: 150px;
+  width: 75px;
+  height: 75px;
+  padding: 18px;
+}
+
+.fixed-action-btn {
+  position: fixed;
+  right: 1.1875rem;
+  bottom: 1.1875rem;
+  z-index: 1030;
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  align-items: center;
+  padding: 0.9375rem 20px 20px;
+  margin-bottom: 0;
+  height: auto;
+  overflow: hidden;
+}
+
+.fixed-action-btn:hover {
+  height: 560px;
+}
+
+.fixed-action-btn ul {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  opacity: 0;
+  transition: transform 0.4s, opacity 0.4s;
+  z-index: -1;
+}
+.fixed-action-btn ul li {
+  z-index: 0;
+  display: flex;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+}
+
+.fixed-action-btn.active ul,
+.fixed-action-btn ul a.btn.shown {
+  opacity: 1;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.small-btn {
+  border-radius: 200px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  border: 5px solid white;
+  padding: 5px;
+}
+
+.small-btn:hover {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.small-btn.man {
+  background-color: #44b4ff;
+}
+
+.small-btn.woman {
+  background-color: #fb82ff;
+}
+
+.btn-floating {
+  background-color: #25d366;
+  border-radius: 200px;
+  width: 75px;
+  height: 75px;
+  color: white;
+  border: 5px solid white;
+  padding: 13px;
+}
+
+.btn-floating:active {
+  background-color: orange;
+}
+
+.btn-floating:hover {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.svg-photo {
+  position: relative;
+}
+
+.svg-photo svg {
+  position: absolute;
+  width: 100vw;
+  left: 0;
+}
+
+.svg-photo img {
+  height: 60vw;
+}
